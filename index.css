@@ -1,0 +1,46 @@
+.text-conferencia{
+  color: #97c93e !important;
+}
+
+#header img{
+  width: 80px;
+}
+
+#main img{
+  max-height: 70vh;
+  object-fit: cover;
+/*object-fit: estira la imagen y hace un pequeño zoom*/
+  filter: grayscale(70%);
+}
+
+#carousel{
+  position: relative;
+}
+
+#carousel .overlay{
+  /*Para que el overlay se expanda por todo el alto del carousel y
+  todo el ancho también,ya que no sabemos los anchos de la pantalla*/
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left:0;
+  right:0;
+  /*Para que el color del texto contraste bien con el gris de las imagens*/
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+/*Para que el align-items-center que esta en el row pueda centrar todo el texto
+donde esta el slide*/
+#carousel .overlay .container,
+#carousel .overlay .row{
+  height: 100%;
+}
+
+#footer{
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+}
+
+#footer a{
+  color: #fff;
+}
