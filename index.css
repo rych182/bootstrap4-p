@@ -1,3 +1,11 @@
+.btn-conferencia{
+  background-color: #97c93e;
+  color: white;
+}
+.btn-conferencia:hover{
+  background-color: #82ad36;
+}
+
 .text-conferencia{
   color: #97c93e !important;
 }
